@@ -1,0 +1,45 @@
+body {
+    font-weight: 400;
+}
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container .side-bar {
+    box-sizing: border-box;
+    width: 360px;
+    background: #2373b4;
+    color: #fff;
+    padding: 30px;
+}
+.container .side-bar ul li {
+   list-style: none;
+   padding: 15px 0;
+}
+.container .side-bar h1 {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.container .side-bar ul li h5  {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500; 
+ }
+ .container .side-bar ul span  {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500; 
+ }
+.container .table-content {
+    padding: 30px;
+    flex: 1;
+}
+.container .table-content .sum-title h3 {
+    font-size: 22px;
+}
+.container .table-content #totalPrice {
+    font-size: 50px;
+    font-weight: 100;
+}
